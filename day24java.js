@@ -1,3 +1,5 @@
+$( document ).ready(function() {
+
 let nameinput = $("#name")
 let emailinput = $("#email")
 let phoneinput = $("#phone")
@@ -25,4 +27,4 @@ if($("label").hasClass("warning")){
 }})
 
 
-
+});
