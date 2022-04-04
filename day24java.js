@@ -11,7 +11,7 @@ let required = [nameinput, emailinput, phoneinput]
 
 for(let inputs of required){
   if ( inputs.val() == "" ){
-    $("#message").prev().text("Please Fill Out Required Field")
+    $("#message").text("Please Fill Out Required Field")
     $("#message").prev().addClass("warning")
      inputs.prev().addClass("warning")
   } else { 
